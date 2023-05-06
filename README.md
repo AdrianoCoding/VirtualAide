@@ -29,6 +29,7 @@ Encontre o bot e enviá-lo uma mensagem. Normalmente a primeira mensagem é o /s
 
 
 #### Comandos 
+![Sem título](https://user-images.githubusercontent.com/70298185/236633918-15431d10-380a-427d-86fe-f31afe2e1247.png)
 
 - /start: inicie o bot e comece uma nova conversa
 - /on: mostra a memória do servidor que o bot está (APENAS PARA ADMINS)
