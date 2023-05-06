@@ -12,9 +12,21 @@ pip install openai pytelegrambot
 caso esteja no linux, talvez seja necessario o uso do pip3
 
 
+### Alterações possiveis
+Caso você ache que é necessario mudar o comando de ação, do telegram, altere as informações commands do campo: 
+@bot.message_handler(commands=['aide', 'Aide', 'Aide,' , 'aidentro', 'aides', 'aids'])
+Localizado no arquivo main.py
+exemplo: Fazer que o bot responda com /pergunta, ficaria assim com o campo alterado: 
+@bot.message_handler(commands=['pergunta'])
+Com isto, quando o usuario for usar o bot em grupos, o usuario terá que usar /pergunta, seguido da pergunta, exemplo:
+/pergunta qual é a maior palavra do português
+
+
+
 ### Como usar o bot no Telegram
 Após ter configurado suas informações no script: Execute o mesmo.
 Encontre o bot e enviá-lo uma mensagem. Normalmente a primeira mensagem é o /start, com isto ele já vai mostrar algumas informações
+
 
 #### Comandos 
 
