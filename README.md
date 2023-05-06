@@ -6,11 +6,11 @@ Este projeto é um bot de bate-papo baseado em AI (Inteligência Artificial) que
 ### Como instalar as bibliotecas com pip
 
 Para instalar as bibliotecas necessárias, abra o terminal e digite o seguinte comando:
-
 pip install openai pytelegrambot
-
 caso esteja no linux, talvez seja necessario o uso do pip3
 
+## Colete a sua Key da Openai
+![Td8JdQT](https://user-images.githubusercontent.com/70298185/236633707-ec3dc77d-6dfa-4d76-b63f-1d99837804f6.png)
 
 ### Alterações possiveis
 Caso você ache que é necessario mudar o comando de ação, do telegram, altere as informações commands do campo: 
