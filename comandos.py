@@ -8,7 +8,7 @@ import threading
 def responder (mensagem):
     bot.send_chat_action(mensagem.chat.id, 'typing')
     time.sleep(5)
-    bot.reply_to(mensagem, 'Olá, meu nome é Aide. Estou aqui para ajudar. Novas atualizações estão chegando a todo momento, use o canal @VirtualAide para ficar atualizado sobre tudo que acontece pelos back-end do projeto')
+    bot.reply_to(mensagem, 'Olá, meu nome é Aide. Estou aqui para ajudar. Uso inteligencia artificial para pensar na resposta de suas perguntas. \n Sou opensource, visite meu repositorio público em: https://github.com/Xituis/VirtualAide')
     if mensagem.chat.type == 'private':
         bot.reply_to(mensagem,'Me mande uma mensagem como se estivesse falando com uma pessoa normal, e assim, poderei conversar horas com você :)')
     else:
