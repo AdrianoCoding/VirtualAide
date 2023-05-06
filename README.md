@@ -36,4 +36,4 @@ Encontre o bot e enviá-lo uma mensagem. Normalmente a primeira mensagem é o /s
 - /aide: use este comando em grupos para interagir com o bot e fazer perguntas
 - Observação: quando a conversa é iniciada no chat privado do bot, não é necessário usar o comando /aide, basta enviar a mensagem e o bot irá responder como um ser humano em tempo real, incluindo efeitos de digitação.
 
-Mantenha as conversas dentro dos tópicos adequados e respeite outras pessoas no grupo. Este projeto é desenvolvido apenas para fins educacionais e pode não ser adequado para determinadas aplicações comerciais ou outros fins. Por favor, explore o projeto como desejado e divirta-se!
+Mantenha as conversas dentro dos tópicos adequados e respeite outras pessoas no grupo. Este projeto é desenvolvido apenas para fins educacionais e pode não ser adequado para determinadas aplicações comerciais ou outros fins. Por favor, explore o projeto como desejado e divirta-se! 
