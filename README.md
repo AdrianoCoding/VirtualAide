@@ -15,7 +15,7 @@ caso esteja no linux, talvez seja necessario o uso do pip3
 
 ### Adicione suas informações no arquivo keys.py
 
-(IMAGEM AQUI)
+![keys para github](https://user-images.githubusercontent.com/70298185/236688150-2ea0e040-40a8-48ab-a30c-83862cd0dcdb.png)
 
 As informações, são necessaria para o funcionamento do bot, pois, sarão elas que dará o uso ao consumo das API's do telegram e da openai.
 - Crie um bot dentro do botfather no telegram, pegue a api do mesmo e cole no campo: 
@@ -32,7 +32,8 @@ exemplo: admin = [999999, 555555, 111111]
 
 ### Comando para usar o bot
 
-(IMAGEM AQUI)
+![alterar comando github](https://user-images.githubusercontent.com/70298185/236688161-190993a4-66ad-4a02-baa1-c84e35402d29.png)
+
 
 Altere o campo que contem a frase: "SEU COMANDO AQUI", para que este comando, possa ser o / que dará a ação ao bot dentro do telegram, em grupos.
 exemplo: Fazer que o bot responda com /pergunta, ficaria assim com o campo alterado: 
