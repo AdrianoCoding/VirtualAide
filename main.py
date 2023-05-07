@@ -6,12 +6,12 @@ import time, os,subprocess
 import threading
 last_message_time = {}
 
-@bot.message_handler(commands=['aide', 'Aide', 'Aide,' , 'aidentro', 'aides', 'aids'])
+@bot.message_handler(commands=['SEU COMANDO AQUI'])
 def reply_to_message(message):
     global last_message_time
     chat_id = message.chat.id
     now = time.time()
-    if chat_id not in last_message_time or now - last_message_time[chat_id] > 30:
+    if chat_id not in last_message_time or now - last_message_time[chat_id] > 30: # O bot responde uma mensage a cada 30 segundos
         last_message_time[chat_id] = now
         bot.send_chat_action(chat_id, 'typing')
         response = reply_to_message(message.text)

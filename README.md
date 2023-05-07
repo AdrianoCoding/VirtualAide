@@ -12,10 +12,29 @@ caso esteja no linux, talvez seja necessario o uso do pip3
 ## Colete a sua Key da Openai
 ![Td8JdQT](https://user-images.githubusercontent.com/70298185/236633707-ec3dc77d-6dfa-4d76-b63f-1d99837804f6.png)
 
-### Alterações possiveis
-Caso você ache que é necessario mudar o comando de ação, do telegram, altere as informações commands do campo: 
-@bot.message_handler(commands=['aide', 'Aide', 'Aide,' , 'aidentro', 'aides', 'aids'])
-Localizado no arquivo main.py
+
+### Adicione suas informações no arquivo keys.py
+
+(IMAGEM AQUI)
+
+As informações, são necessaria para o funcionamento do bot, pois, sarão elas que dará o uso ao consumo das API's do telegram e da openai.
+- Crie um bot dentro do botfather no telegram, pegue a api do mesmo e cole no campo: 
+token = 'YOUR BOT TOKEN_TELEGRAM'
+
+- E adicione a key da openai no campo:
+openai.api_key = 'YOUR OPENAI KEY'
+
+- Colete de alguma forma, o id da sua conta telegram, para que possa ter ações de administrador no bot, como o comando /on , que é especial aos admins
+admin = [YOUR ID TELEGRAM] 
+Caso queira adicionar mais de um id, coloque uma virgula ao passar de um id para o outro (Caso não funcione, remova o espaço)
+exemplo: admin = [999999, 555555, 111111] 
+
+
+### Comando para usar o bot
+
+(IMAGEM AQUI)
+
+Altere o campo que contem a frase: "SEU COMANDO AQUI", para que este comando, possa ser o / que dará a ação ao bot dentro do telegram, em grupos.
 exemplo: Fazer que o bot responda com /pergunta, ficaria assim com o campo alterado: 
 @bot.message_handler(commands=['pergunta'])
 Com isto, quando o usuario for usar o bot em grupos, o usuario terá que usar /pergunta, seguido da pergunta, exemplo:
