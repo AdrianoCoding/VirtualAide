@@ -24,7 +24,10 @@ Com isto, quando o usuario for usar o bot em grupos, o usuario terá que usar /p
 
 
 ### Como usar o bot no Telegram
-Após ter configurado suas informações no script: Execute o mesmo.
+Após ter configurado suas informações no script: Execute o arquivo main.py usando o:
+No Linux: python3 main.py
+No Windows: python main.py
+(Para deixar rodand em segundo plano, adicione o & no final do comando)
 Encontre o bot e enviá-lo uma mensagem. Normalmente a primeira mensagem é o /start, com isto ele já vai mostrar algumas informações
 
 
