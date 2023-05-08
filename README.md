@@ -88,12 +88,14 @@ text-curie-001| Desconhecido
 
 ### Alterando o modelo
 Caso tenha a necessidade de alterar o modelo, faça a edição na parte `model` do script, disponiveis nos arquivos main.py e chatprivado.py
-(img)
+![code](https://user-images.githubusercontent.com/70298185/236867149-6fc3d205-6cef-4f1e-9dbf-8fb0a199b457.pn
+
 
 [*Acesse a documentação de modelos, antes da mudança*](https://platform.openai.com/docs/models/overview)
 Adicione o nome completo da versão que deseja, no campo `model`, exemplo com o modelo: gpt-3.5-turbo
+![exemplo](https://user-images.githubusercontent.com/70298185/236867195-16ecc7aa-99c2-426a-9d10-b127e7231367.png)
 
-(img exemplo)
+
 ***
 
 Mantenha as conversas dentro dos tópicos adequados e respeite outras pessoas no grupo. Este projeto é desenvolvido apenas para fins educacionais e pode não ser adequado para determinadas aplicações comerciais ou outros fins. Por favor, explore o projeto como desejado e divirta-se! 
