@@ -63,5 +63,18 @@ Encontre o bot e enviá-lo uma mensagem. Normalmente a primeira mensagem é o /s
 ### Funcionamento do Script
 ![Diagrama sem nome drawio](https://user-images.githubusercontent.com/70298185/236815765-aad7ec7a-b9f1-4a6e-9b9a-2f37ad23ce83.png)
 
+***
+### Modelo de Interpretação 
+__*Leia a documentação para uso da api da openai*__
+É disponibilidado 12 modelos ao todo, com diferentes tempos de respostas, e formas de interpretações diferentes.
+acesse: [Documentação de modelo OpenAi](https://platform.openai.com/docs/models/gpt-3-5) para mais informações
+
+### Tempo de Resposta
+
+Modelo|tempo de resposta
+---|---
+davinci|4 segundos
+
+
 
 Mantenha as conversas dentro dos tópicos adequados e respeite outras pessoas no grupo. Este projeto é desenvolvido apenas para fins educacionais e pode não ser adequado para determinadas aplicações comerciais ou outros fins. Por favor, explore o projeto como desejado e divirta-se! 
