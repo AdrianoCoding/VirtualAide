@@ -74,6 +74,17 @@ acesse: [Documentação de modelo OpenAi](https://platform.openai.com/docs/model
 Modelo|tempo de resposta
 ---|---
 davinci|4 segundos
+curie|15 segundos
+babbage| 90segundos
+ada| 60segundos
+cushman| 60segundos
+davinci-instruct-beta| 6segundos
+content-filter-alpha-c4| 4segundos
+content-filter-dev| Desconhecido
+davinci-codex| 50segundos
+text-davinci-002| 5segundos
+text-davinci-001| Desconhecido
+text-curie-001| Desconhecido
 
 
 
