@@ -88,7 +88,9 @@ text-curie-001| Desconhecido
 
 ### Alterando o modelo
 Caso tenha a necessidade de alterar o modelo, faça a edição na parte `model` do script, disponiveis nos arquivos main.py e chatprivado.py
-![code](https://user-images.githubusercontent.com/70298185/236867149-6fc3d205-6cef-4f1e-9dbf-8fb0a199b457.pn
+
+![code](https://user-images.githubusercontent.com/70298185/236867481-5c902d48-e625-4bb3-9086-27ffe8c42a2f.png)
+
 
 
 [*Acesse a documentação de modelos, antes da mudança*](https://platform.openai.com/docs/models/overview)
