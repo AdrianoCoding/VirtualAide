@@ -86,6 +86,12 @@ text-davinci-002| 5segundos
 text-davinci-001| Desconhecido
 text-curie-001| Desconhecido
 
-
+### Alterando o modelo
+Caso tenha a necessidade de alterar o modelo, faça a edição na parte `model` do script, disponiveis nos arquivos main.py e chatprivado.py
+(img)
+(*Acesse a documentação de modelos, antes da mudança*)[https://platform.openai.com/docs/models/overview]
+Adicione o nome completo da versão que deseja, no campo `model`, exemplo com o modelo: gpt-3.5-turbo
+(img exemplo)
+***
 
 Mantenha as conversas dentro dos tópicos adequados e respeite outras pessoas no grupo. Este projeto é desenvolvido apenas para fins educacionais e pode não ser adequado para determinadas aplicações comerciais ou outros fins. Por favor, explore o projeto como desejado e divirta-se! 
