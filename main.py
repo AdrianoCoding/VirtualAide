@@ -2,6 +2,7 @@ from comandos import *
 from keys import *
 from chatprivado import *
 from telebot import types
+from speak import *
 import time, os,subprocess
 import threading
 last_message_time = {}
