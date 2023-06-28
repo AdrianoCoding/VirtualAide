@@ -11,13 +11,14 @@ def reply_to_message(message):
 
 # Enviar a mensagem do usuário para a OpenAI e obter uma resposta
     response = openai.Completion.create(
-        model="text-davinci-003", #altere caso veja necessidade
+        model="text-davinci-003", #Altere caso necessite de um outro modelo de pensamento
         prompt=user_message,
         max_tokens=1024,
         n=1,
         stop=None,
         temperature=0.1,
-        api_key = openai.api_key, 
+        frequency_penalty =  0,
+        presence_penalty = 0
     )
     return response
 

@@ -2,7 +2,6 @@ from comandos import *
 from keys import *
 from chatprivado import *
 from telebot import types
-from speak import *
 import time, os,subprocess
 import threading
 last_message_time = {}
@@ -31,9 +30,12 @@ def reply_to_message(message):
         model="text-davinci-003", #Altere caso necessite de um outro modelo de pensamento
         prompt=user_message,
         max_tokens=1024,
+        chat_mode= "assistant",
         n=1,
         stop=None,
-        temperature=0.1
+        temperature=0.1,
+        frequency_penalty =  0,
+        presence_penalty = 0
     )
     return response
 
