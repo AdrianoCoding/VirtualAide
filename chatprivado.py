@@ -1,6 +1,7 @@
 from main import *
 from keys import *
 from telebot import *
+from comandos import *
 import time, os,subprocess
 import threading
 
