@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 8px;
+    font-family: 'Source Code Pro', monospace;
 }
 
 body {
@@ -36,4 +38,5 @@ body {
     width: 100%;
     max-width: 400px; 
     border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 132, 255, 0.5);
 }
